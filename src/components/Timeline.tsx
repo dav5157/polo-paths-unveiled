@@ -47,11 +47,12 @@ const Timeline = ({ selectedYear, onYearSelect, onEventSelect }: TimelineProps) 
         <p className="text-sm text-muted-foreground mt-1">
           Marco Polo's era (1254-1324)
         </p>
-        <div className="flex gap-2 mt-3">
+        <div className="flex flex-wrap gap-1.5 mt-3">
           <Button 
             variant={selectedYear ? "outline" : "default"}
             size="sm"
             onClick={() => onYearSelect(undefined)}
+            className="text-xs"
           >
             All Years
           </Button>
@@ -59,6 +60,7 @@ const Timeline = ({ selectedYear, onYearSelect, onEventSelect }: TimelineProps) 
             variant={selectedYear === 1271 ? "default" : "outline"}
             size="sm"
             onClick={() => onYearSelect(1271)}
+            className="text-xs"
           >
             Departure
           </Button>
@@ -66,6 +68,7 @@ const Timeline = ({ selectedYear, onYearSelect, onEventSelect }: TimelineProps) 
             variant={selectedYear === 1275 ? "default" : "outline"}
             size="sm"
             onClick={() => onYearSelect(1275)}
+            className="text-xs"
           >
             Arrival
           </Button>
@@ -73,6 +76,7 @@ const Timeline = ({ selectedYear, onYearSelect, onEventSelect }: TimelineProps) 
             variant={selectedYear === 1292 ? "default" : "outline"}
             size="sm"
             onClick={() => onYearSelect(1292)}
+            className="text-xs"
           >
             Return
           </Button>

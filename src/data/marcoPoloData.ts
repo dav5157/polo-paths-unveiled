@@ -143,6 +143,104 @@ export const marcoPoloLocations: Location[] = [
     historicalContext: 'Under the rule of local dynasties, Hormuz was a key player in Indian Ocean trade networks.',
     economicImportance: 'Major entrepôt for spices, precious stones, and other luxury goods from India and Southeast Asia.',
     culturalNotes: 'Multicultural trading center with Persian, Arab, and Indian influences.'
+  },
+  {
+    id: 'samarkand',
+    name: 'Samarkand',
+    coordinates: [39.6270, 66.9745],
+    type: 'city',
+    yearVisited: 1273,
+    significance: 'Crossroads of Central Asian trade, intellectual center',
+    description: 'One of the greatest cities of the Silk Road, renowned for its scholars, artisans, and magnificent architecture.',
+    historicalContext: 'Ancient Sogdian capital, conquered by Alexander the Great, later ruled by various Islamic dynasties and then the Mongols.',
+    economicImportance: 'Major center for silk production, metalworking, and as a transit point for goods between East and West.',
+    culturalNotes: 'Center of Islamic learning and astronomy, famous for its madrasas and as birthplace of many scholars.'
+  },
+  {
+    id: 'baghdad',
+    name: 'Baghdad',
+    coordinates: [33.3152, 44.3661],
+    type: 'city',
+    yearVisited: 1272,
+    significance: 'Former Abbasid capital, center of Islamic civilization',
+    description: 'The legendary "City of Peace," once the largest city in the world and center of the Islamic Golden Age.',
+    historicalContext: 'Recently conquered by the Mongols in 1258, ending the Abbasid Caliphate. Still recovering from the devastation.',
+    economicImportance: 'Major trading hub on the Tigris River, connecting Persian Gulf with Central Asian routes.',
+    culturalNotes: 'Former center of Islamic scholarship, translation movement, and the House of Wisdom before Mongol conquest.'
+  },
+  {
+    id: 'acre',
+    name: 'Acre',
+    coordinates: [32.9253, 35.0818],
+    type: 'city',
+    yearVisited: 1271,
+    significance: 'Last major Crusader stronghold in the Holy Land',
+    description: 'Fortified port city and the final major bastion of the Crusader Kingdom of Jerusalem.',
+    historicalContext: 'Under Crusader control but facing increasing pressure from the Mamluk Sultanate.',
+    economicImportance: 'Important Mediterranean port linking European merchants with Eastern trade routes.',
+    culturalNotes: 'Meeting point of Latin Christian, Byzantine, and Islamic cultures with diverse merchant communities.'
+  },
+  {
+    id: 'karakorum',
+    name: 'Karakorum',
+    coordinates: [47.2083, 102.8464],
+    type: 'city',
+    yearVisited: 1264,
+    significance: 'Former capital of the Mongol Empire',
+    description: 'The ceremonial capital of the Mongol Empire under Genghis Khan and his successors.',
+    historicalContext: 'By Marco Polo\'s time, gradually losing importance as Mongol khans established regional capitals.',
+    economicImportance: 'Administrative center controlling vast trade networks across the Mongol Empire.',
+    culturalNotes: 'Cosmopolitan city with Buddhist, Christian, Muslim, and Tengrist influences reflecting Mongol religious tolerance.'
+  },
+  {
+    id: 'tyre',
+    name: 'Tyre',
+    coordinates: [33.2704, 35.2038],
+    type: 'city',
+    yearVisited: 1271,
+    significance: 'Ancient Phoenician port and Crusader stronghold',
+    description: 'Historic port city with millennia of maritime trading heritage.',
+    historicalContext: 'One of the last Crusader territories, would fall to the Mamluks in 1291.',
+    economicImportance: 'Traditional center of purple dye production and Mediterranean commerce.',
+    culturalNotes: 'Ancient Phoenician heritage mixed with Crusader, Byzantine, and Islamic influences.'
+  },
+  {
+    id: 'aden',
+    name: 'Aden',
+    coordinates: [12.7797, 45.0365],
+    type: 'trade-center',
+    yearVisited: 1293,
+    significance: 'Strategic port controlling Red Sea trade',
+    description: 'Crucial port city controlling the entrance to the Red Sea and routes to India.',
+    historicalContext: 'Under the rule of the Rasulid dynasty, major player in Indian Ocean trade.',
+    economicImportance: 'Essential stop for merchants traveling between the Mediterranean, Indian Ocean, and Far East.',
+    culturalNotes: 'Arab trading center with influences from Indian, Persian, and African merchants.'
+  },
+  {
+    id: 'colombo',
+    name: 'Selan (Ceylon)',
+    modernName: 'Colombo',
+    coordinates: [6.9271, 79.8612],
+    type: 'trade-center',
+    yearVisited: 1293,
+    significance: 'Spice trading center, known for cinnamon and precious stones',
+    description: 'Island kingdom famous throughout Asia for its spices, especially cinnamon, and precious gems.',
+    historicalContext: 'Under various local kingdoms, heavily involved in Indian Ocean trade networks.',
+    economicImportance: 'Primary source of cinnamon for global markets, also famous for sapphires and rubies.',
+    culturalNotes: 'Buddhist kingdom with Tamil, Sinhalese, and Arab merchant influences.'
+  },
+  {
+    id: 'java',
+    name: 'Java Minor',
+    modernName: 'Sumatra',
+    coordinates: [-0.7893, 113.9213],
+    type: 'region',
+    yearVisited: 1292,
+    significance: 'Spice islands, source of pepper and other valuable spices',
+    description: 'Large island kingdom rich in spices, particularly pepper, which was as valuable as gold.',
+    historicalContext: 'Under the Majapahit Empire and various local sultanates, crucial to maritime trade.',
+    economicImportance: 'Major source of pepper, nutmeg, cloves, and other spices highly sought after in Europe.',
+    culturalNotes: 'Hindu-Buddhist kingdoms with growing Islamic influence through Arab and Indian traders.'
   }
 ];
 
